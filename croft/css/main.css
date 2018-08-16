@@ -1,0 +1,56 @@
+html {
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+	font-family: arial;
+}
+
+.main-holder {
+	border:20px solid #595b4f;
+	width: 30%;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.main-holder div.staff-id {
+	background: red;
+	width: 30%;
+	color:#fff;
+	padding-bottom: 88px;
+	overflow: hidden;
+}
+
+.main-holder div.other-info{ 
+	float: right;
+	width: 70%;
+}
+
+.main-holder div.other-info div {
+	color:#fff;
+	font-weight: 500;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.main-holder div.other-info div:nth-child(odd) {
+	background: black;
+}
+.main-holder div.other-info div:nth-child(even) {
+	background: red;
+}
+
+.main-holder div.occupation {
+	color: #45463e;
+	font-weight: 800;
+	margin-left: 40%; 
+
+}
